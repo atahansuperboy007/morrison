@@ -1,0 +1,415 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: system-ui;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.image-header {
+    height: 50px;
+    margin: 0px 115px 0px 100px;
+}
+.text-back-black {
+    background: rgba(0, 0, 0, 0.5);
+}
+.text-header {
+    margin: 0px 25px;
+}
+.button-header {
+    background-color: rgb(51, 51, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 170px;
+    height: 40px;
+    margin: 0px 100px 0px 115px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 255, 0.3);
+    outline: none;
+}
+.button-header:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 255, 0.3) inset;
+}
+.text-h1 {
+    display: flex;
+    padding: 180px 0px 0px 115px;
+    margin: 0px;
+    font-size: 60px;
+    color: white;
+}
+.text-h1-blue {
+    margin: 0px 10px 20px 0px;
+    color: blue;
+}
+.image-back {
+    background: url(../Картинки/back/back-python.jpg);
+    background-size: 100% 120%;
+}
+.text-p {
+    color: white;
+    font-size: 21px;
+    padding: 0px 0px 0px 115px;
+    margin: 0px;
+}
+.burron-1- {
+    background-color: rgb(51, 51, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 220px;
+    height: 50px;
+    font-size: 15px;
+    margin: 40px 100px 100px 115px;
+    outline: none;
+}
+.text-h1-text- {
+    font-size: 48px;
+    padding: 40px 0px 40px 115px;
+    margin: 0px;
+}
+.text-h1- {
+    display: flex;
+    justify-content: center;
+}
+.text-h1-3 {
+    color: blue;
+    font-size: 50px;
+    border-bottom: 2px solid blue;
+    margin: 20px 20px 10px 20px;
+    padding: 0px 150px 20px 150px;
+}
+.text-h1-4 {
+    color: blue;
+    border-bottom: 2px solid blue;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    padding: 0px 150px 20px 150px;
+}
+.text-h1-3-1 {
+    color: blue;
+    border-bottom: 2px solid blue;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    padding: 0px 150px 20px 150px;
+}
+.text-div-flex {
+    display: flex;
+    text-align: center;
+}
+.text-p-1 {
+    margin: 0px 150px 80px 150px;
+}
+.text-p-2 {
+    margin: 0px 52px 80px 65px;
+}
+.text-p-3 {
+    margin: px 150px 80px 150px;
+}
+.text-h3-1 {
+    font-size: 17px;
+    margin: 50px 0px 0px 115px;
+}
+.text-h3-2 {
+    font-size: 17px;
+    padding: 20px 0px 40px 115px;
+    margin: 0px;
+}
+.text-blue-h1 {
+    background: rgba(204, 204, 204, 0.3);
+}
+.text-pp {
+    font-size: 40px;
+    margin: 50px 0px 40px 115px;
+}
+.text-flex {
+    display: flex;
+}
+.image-40px {
+    width: 40px;
+    height: 40px;
+    margin: 25px 20px 0px 115px;
+}
+.text-h3-p1 {
+    font-size: 25px;
+}
+.image-icon-text {
+    width: 12px;
+    height: 12px;
+    margin: 0px 5px 0px 0px;
+}
+.text-p-p- {
+    margin: 0px 0px 50px 0px;
+}
+.text-back-grey-text- {
+    background: rgba(204, 204, 204, 0.3);
+}
+.text-t {
+    margin: 0px;
+    padding: 40px 0px 30px 115px;
+    color: blue;
+    font-size: 35px;
+}
+.text-text-1 {
+    padding: 0px 0px 0px 115px;
+    margin: 0px;
+}
+.text-text-2 {
+    padding: 0px 0px 0px 115px;
+    margin: 0px;
+}
+.text-text-3 {
+    padding: 0px 0px 70px 115px;
+    margin: 0px;
+}
+.text-1245 {
+    display: flex;
+    background: white;
+    margin: 20px 115px 20px 115px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.text-p-p-1245 {
+    padding: 0px 15px;
+}
+.text-te-1 {
+    font-size: 22px;
+    margin: 11px 0px 0px 740px;
+}
+.text-te-2 {
+    font-size: 22px;
+    margin: 11px 0px 0px 915px;
+}
+.text-te-3 {
+    font-size: 22px;
+    margin: 11px 0px 0px 520px;
+}
+.text-te-4 {
+    font-size: 22px;
+    margin: 11px 0px 0px 840px;
+}
+.text-te-5 {
+    font-size: 22px;
+    margin: 11px 0px 0px 820px;
+}
+.text-text-4 {
+    margin: 0px;
+    padding: 100px 0px 30px 115px;
+}
+.text-div-d-1 {
+    background: url(../Картинки/team/takhir.jpg);
+    background-size: 100%;
+    color: white;
+    margin: 0px 20px 0px 115px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    height: 343px;
+    width: 333px;
+}
+.text-div-d-2 {
+    background: url(../Картинки/team/almas.jpg);
+    background-size: 100% 100%;
+    color: white;
+    margin: 0px 20px 0px 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    width: 343px;
+    height: 343px;
+}
+.text-div-d-3 {
+    background: url(../Картинки/team/stas.jpg);
+    background-size: 100% 105%;
+    color: white;
+    margin: 0px 115px 100px 20px;
+    border-radius: 10px;
+    width: 353px;
+    height: 343px;
+    background-repeat: no-repeat;
+}
+.text-flex-div-1 {
+    display: flex;
+}
+.text-p-p1 {
+    padding: 140px 20px 10px 20px;
+    font-size: 16px;
+    margin: 0px;
+}
+.text-p-p2 {
+    padding: 140px 20px 10px 20px;
+    font-size: 16px;
+    margin: 0px;
+}
+.text-p-p3 {
+    padding: 105px 20px 10px 20px;
+    font-size: 16px;
+    margin: 0px;
+}
+.text-p-p4 {
+    margin: 0px 20px 20px 20px;
+}
+.text-h3-h31 {
+    margin: 0px 20px 15px 20px;
+}
+.text-h1-text-h {
+    color: white;
+    margin: 0px;
+    padding: 120px 0px 0px 115px;
+}
+.text-p-text-ph {
+    color: white;
+    margin: 0px;
+    padding: 20px 0px 180px 115px;
+}
+.back-image-blue {
+    display: flex;
+    background: url(../Картинки/back/back-about-select-2.jpg);
+    border-bottom: 2px solid white;
+}
+.text-1-121 {
+    color: white;
+    margin: 0px;
+    padding: 50px 0px 20px 150px;
+}
+.text-input-1 {
+    padding: 0px 20px;
+    width: 385px;
+    height: 40px;
+    margin: 10px 0px 10px 150px;
+    border-radius: 5px;
+    border: none;
+}
+.text-text-text {
+    display: flex;
+    flex-direction: column;
+}
+.text-button-1 {
+    width: 425px;
+    height: 40px;
+    margin: 10px 0px 10px 150px;
+    border-radius: 5px;
+    border: none;
+    color: blue;
+}
+.Footer-text {
+    display: flex;
+    background: rgb(40, 40, 50);
+    color: white;
+}
+.image-footer {
+    width: 180px;
+    margin: 50px 0px 0px 115px;
+}
+.image-icon-white {
+    width: 8%;
+    border-radius: 100%;
+    margin: 0px 0px 50px 115px;
+}
+.image-icon-white-2 {
+    width: 8%;
+    border-radius: 100%;
+    margin: 0px 0px 50px 5px;
+}
+.text-footer-p-1 {
+    color: white;
+    font-size: 13px;
+    margin: 0px 0px 0px 115px;
+    width: 200px;
+}
+.text-footer-p-2 {
+    color: white;
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 39px 0px 20px 115px;
+    width: 110px;
+}
+.image-icon-footer-1 {
+    width: 15px;
+    height: 20px;
+    margin: 18px 15px 0px 0px;
+}
+.image-icon-footer-2 {
+    width: 15px;
+    height: 15px;
+    margin: 18px 15px 0px 0px;
+}
+.image-icon-footer-3 {
+    width: 20px;
+    height: 15px;
+    margin: 18px 10px 0px 0px;
+}
+.flex {
+    display: flex;
+}
+.h1-footer {
+    font-size: 20px;
+}
+.text-columb-1 {
+    margin: 50px 40px 0px 50px;
+}
+.text-columb-2 {
+    margin: 50px 40px 0px 40px;
+}
+.text-columb-3 {
+    margin: 50px 40px 0px 40px;
+}
+.text-columb-4 {
+    margin: 50px 150px 0px 40px;
+}
+.text-footer-p {
+    font-size: 15px;
+}
+.WEB-image {
+    margin: 60px 0px 0px 100px;
+}
+.web-text {
+    display: flex;
+    align-items: center;
+}
+.web-text-h1 {
+    margin: 50px 0px 100px 115px;
+}
+.web-text-p {
+    margin: 50px 0px 100px 670px;
+}
+.blue-white-text {
+    background: rgb(51, 51, 255);
+    display: flex;
+    color: white;
+    margin: 0px;
+    padding: 50px 0px 50px 115px;
+}
+.white-text-2 {
+    margin: 10px 0px 0px 100px;
+}
+.white-text-3 {
+    margin: 10px 0px 0px 100px;
+}
+.white-text-4 {
+    margin: 10px 0px 0px 100px;
+}
+.black-gibbi {
+    color: white;
+    transition: 0.1s;
+}
+.black-gibbi:hover {
+    color: black;
+    transition: 0.1s;
+}
+.gray-button-text- {
+    color: black;
+}
+.gray-button-text-:hover {
+    color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,217 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: system-ui;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.image-header {
+    height: 50px;
+    margin: 0px 115px 0px 100px;
+}
+.text-header {
+    margin: 0px 25px;
+}
+.button-header {
+    background-color: rgb(51, 51, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 170px;
+    height: 40px;
+    margin: 0px 100px 0px 115px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 255, 0.3);
+    outline: none;
+}
+.button-header:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 255, 0.3) inset;
+}
+.card-div {
+    display: flex;
+    padding: 50px 0px 0px 0px;
+}
+.card-2 {
+    background: url(../Картинки/pages/web.png);
+    background-repeat: no-repeat;
+    margin: 0px 0px 50px 115px;
+    width: 298px;
+    height: 298px;
+    border-radius: 10px;
+    background-size: 100%;
+    transition: 0.2s;
+}
+.card-3 {
+    background: url(../Картинки/pages/python.png);
+    background-repeat: no-repeat;
+    margin: 0px 0px 50px 115px;
+    width: 298px;
+    height: 298px;
+    border-radius: 10px;
+    background-size: 100%;
+    transition: 0.2s;
+}
+.card-1 {
+    background: url(../Картинки/pages/react.png);
+    background-repeat: no-repeat;
+    margin: 0px 0px 50px 115px;
+    width: 298px;
+    height: 298px;
+    border-radius: 10px;
+    background-size: 100%;
+    transition: 0.2s;
+}
+.black-color-2 {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 20px 97px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+.black-color-3 {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 20px 97px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+.black-color {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 20px 115px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+.button {
+    border: none;
+    padding: 5px;
+    background: rgb(255, 32, 106);
+    color: white; 
+}
+.h1 {
+    font-size: 28px;
+    color: white;
+}
+.p {
+    color: white;
+    font-size: 13.8px;
+}
+.Footer-text {
+    display: flex;
+    background: rgb(40, 40, 50);
+    color: white;
+}
+.image-footer {
+    width: 180px;
+    margin: 50px 0px 0px 115px;
+}
+.image-icon-white {
+    width: 8%;
+    border-radius: 100%;
+    margin: 0px 0px 50px 115px;
+}
+.image-icon-white-2 {
+    width: 8%;
+    border-radius: 100%;
+    margin: 0px 0px 50px 5px;
+}
+.text-footer-p-1 {
+    color: white;
+    font-size: 13px;
+    margin: 0px 0px 0px 115px;
+    width: 200px;
+}
+.text-footer-p-2 {
+    color: white;
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 39px 0px 20px 115px;
+    width: 110px;
+}
+.image-icon-footer-1 {
+    width: 15px;
+    height: 20px;
+    margin: 5px 12px 0px 0px;
+}
+.image-icon-footer-2 {
+    width: 15px;
+    height: 15px;
+    margin: 7px 12px 0px 0px;
+}
+.image-icon-footer-3 {
+    width: 20px;
+    height: 15px;
+    margin: 6px 8px 80px 0px;
+}
+.flex {
+    display: flex;
+}
+.h1-footer {
+    font-size: 20px;
+}
+.text-columb-1 {
+    margin: 50px 40px 0px 50px;
+}
+.text-columb-2 {
+    margin: 50px 40px 0px 40px;
+}
+.text-columb-3 {
+    margin: 50px 40px 0px 40px;
+}
+.text-columb-4 {
+    margin: 50px 150px 0px 40px;
+}
+.text-footer-p {
+    font-size: 15px;
+}
+.text-card-div {
+    background: rgba(128, 128, 128, 0.08);
+}
+.text-top-card {
+    padding: 100px 0px 0px 115px;
+    margin: 0px;
+}
+.text-h1-1 {
+    font-size: 45px;
+}
+.text-p-1 {
+    font-size: 18px;
+    padding: 0px 0px 20px 0px;
+}
+.text-footer-p-p1 {
+    font-size: 15px;
+     margin: 3px 0px 15px 0px;
+ }
+ .black-gibbi {
+    color: white;
+    transition: 0.1s;
+}
+.black-gibbi:hover {
+    color: black;
+    transition: 0.1s;
+}
+.gray-button-text- {
+    color: black;
+}
+.gray-button-text-:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+.card-3:hover {
+    transition: 0.2s;
+    transform: scale(1.07); 
+}
+.card-2:hover {
+    transition: 0.2s;
+    transform: scale(1.07); 
+}
+.card-1:hover {
+    transition: 0.2s;
+    transform: scale(1.07); 
+}
