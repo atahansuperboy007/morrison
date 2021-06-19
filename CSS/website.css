@@ -70,7 +70,7 @@ header {
     background: url(../Картинки/back/welcome-ng.jpg);
     width: 100%;
     background-repeat: no-repeat;
-    background-size: 101% 65%;
+    background-size:  101% 65%;
 }
 .button-welcome-morrison {
     background-color: rgb(51, 51, 255);
@@ -586,7 +586,7 @@ header {
         padding: 100px 0px 0px 20px;
     }
     .background-image {
-        background-size: 200vw 102vh;
+        background-size: 200vw 120vh;
     }
     .text-welcome-morrison-p {
         font-size: 17px;
@@ -601,19 +601,21 @@ header {
     }
     header {
         display: flex;
-        align-items: center;
-        justify-content: center;
         padding: 5px 0px;
+        justify-content: flex-start;
         background-color: white;
         position: fixed;
         width: 100%;
     }
     .image-header {
         height: 40px;
-        padding: 0px 0px 0px 160px;
-        margin: 0px;
+        padding: 0px 0px 0px 20px;
+        margin: 0px 0px 0px 0px;
+        
     }
     .text-header {
+        width: 0px;
+        height: 0px;
         margin: 0px;
         opacity: 0;
         margin: 0px;
@@ -623,6 +625,8 @@ header {
         opacity: 0;
         padding: 0px;
         margin: 0px;
+        width: 0px;
+        height: 0px;
     }
     .text-consultation {
         padding: 0px 0px 0px 20px;
@@ -656,12 +660,17 @@ header {
     .text-morrison-code-h1 {
         margin: 50px 0px 0px 20px;
         font-size: 25px;
+        width: 175px;
     }
     .morison-code-div-1 {
         display: block;
+        width: 160px;
+        margin: 0px;
     }
     .morison-code-div-2 {
         display: block;
+        width: 160px;
+        margin: 0px;
     }
     .morison-code-div-3 {
         display: block;
@@ -711,29 +720,29 @@ header {
         width: 130px;
     }
     .image-morrison-code-3 {
-        margin: 20px 0px 0px 20px;
+        margin: 20px 0px 0px 10px;
     }
     .text-morrison-code-h1-3 {
-        margin: 0px 0px 0px 20px;
+        margin: 0px 0px 0px 10px;
         width: 135px;
         font-size: 14px;
     }
     .text-morrison-code-p-3 {
         font-size: 12px;
-        margin: 0px 0px 0px 20px;
+        margin: 0px 0px 0px 10px;
         width: 130px;
     }
     .image-morrison-code-4 {
-        margin: 55px 0px 0px 20px;
+        margin: 55px 0px 0px 10px;
     }
     .text-morrison-code-h1-4 {
-        margin: 0px 0px 0px 20px;
+        margin: 0px 0px 0px 10px;
         width: 135px;
         font-size: 14px;
     }
     .text-morrison-code-p-4 {
         font-size: 12px;
-        margin: 0px 0px 50px 20px;
+        margin: 0px 0px 50px 10px;
         width: 130px;
     }
     .div-madia-flex {
@@ -1014,6 +1023,7 @@ header {
      }
      .text-div-mar {
         display: block;
+        width: 400px;
     }
     .text-blue-h1 {
         display: flex;
@@ -1021,7 +1031,7 @@ header {
     }
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 2000px) {
     .menu__btn > span {
         opacity: 0;
      }
@@ -1046,6 +1056,8 @@ header {
 
 #menu__toggle {
     opacity: 0;
+    width: 0px;
+    height: 0px;
   }
   /* стилизуем кнопку */
   .menu__btn {
@@ -1083,8 +1095,8 @@ header {
     position: fixed;
     visibility: hidden;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: -100%;
+    width: 300px;
     height: 100%;
     margin: 0px 0px 0px 0px;
     padding: 80px 25px 80px 20px;
@@ -1131,4 +1143,8 @@ header {
 }
 .menu__item {
   transition-duration: .25s;
+}
+.hamburger-menu {
+    width: 0px;
+    height: 0px;
 }
